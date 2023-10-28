@@ -22,7 +22,7 @@ python script_name.py num_epochs ./train_fold
 ```
 For example:
 ```
-python dgcnn.py 100 my_first_train
+python rgnn.py 100 my_first_train
 ```
 ## Run tensorboard
 ```
