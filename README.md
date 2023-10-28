@@ -8,13 +8,13 @@ The model has been trained using public dataset SEED-IV, in particular we used t
 * Power spectral density
 
 ## Modules versions
-* tensorboard == 2.13.0
-* tensorflow == 2.13.0
-* torch == 1.12.1
-* torch-geometric == 2.3.1
-* torch-scatter == 2.1.0+pt112cu102
-* torchaudio == 0.12.1
-* torcheeg == 1.0.11
+* ```tensorboard == 2.13.0```
+* ```tensorflow == 2.13.0```
+* ```torch == 1.12.1```
+* ```torch-geometric == 2.3.1```
+* ```torch-scatter == 2.1.0+pt112cu102```
+* ```torchaudio == 0.12.1```
+* ```torcheeg == 1.0.11```
 
 ## Run code
 ```
@@ -24,4 +24,9 @@ For example:
 ```
 python dgcnn.py 100 my_first_train
 ```
+## Run tensorboard
+```
+tensorboard --logdir=/path/to/train_folder --logdir --port=<number_of_the_port>
+```
+
 
