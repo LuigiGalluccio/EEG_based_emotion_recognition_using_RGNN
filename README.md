@@ -1,6 +1,12 @@
 # Regularized Graph Neural Network
 The **RGNN** is a particular type of Graph Neural Network architecture that uses dropout technique to reduce overfitting and increase the stability of the model in the training phase.
 
+
+## Dataset SEED-IV
+The model has been trained using public dataset SEED-IV. In particular we used two features:
+* Differencial entropy
+* Power spectral density
+* 
 ## Modules versions
 * tensorboard == 2.13.0
 * tensorflow == 2.13.0
