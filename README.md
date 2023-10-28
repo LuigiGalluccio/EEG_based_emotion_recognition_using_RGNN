@@ -3,10 +3,10 @@ The **RGNN** is a particular type of Graph Neural Network architecture that uses
 
 
 ## Dataset SEED-IV
-The model has been trained using public dataset SEED-IV. In particular we used two features:
+The model has been trained using public dataset SEED-IV, in particular we used two features:
 * Differencial entropy
 * Power spectral density
-* 
+
 ## Modules versions
 * tensorboard == 2.13.0
 * tensorflow == 2.13.0
